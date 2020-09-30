@@ -1,0 +1,52 @@
+.red {
+  background-color: #EE3C5E;
+}
+
+.red-text {
+  color: #EE3C5E;
+}
+
+.yellow, .primary-stage {
+  background-color: #FFCD40;
+}
+
+.yellow-text {
+  color: #FFCD40;
+}
+
+.blue {
+  background-color: #00384E;
+}
+
+.blue-text, .primary-stage h1 {
+  color: #00384E;
+}
+
+.light-blue {
+  background-color: #1F89CA;
+}
+
+.light-blue-text {
+  color: #1F89CA;
+}
+
+.white {
+  background-color: #FFFFFF;
+}
+
+.white-text {
+  color: #FFFFFF;
+}
+
+.full-height, html, body, .primary-stage {
+  height: 100%;
+}
+
+.no-margin, .primary-stage h1 {
+  margin: 0px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}

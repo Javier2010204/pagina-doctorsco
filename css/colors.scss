@@ -1,0 +1,22 @@
+$colors: (
+	red: #EE3C5E,
+	yellow: #FFCD40,
+	blue: #00384E,
+	light-blue: #1F89CA,
+	white: #FFFFFF
+);
+
+@each $color, $value in $colors{
+
+	//genera una clase con el nombre del color y su funcionalidad es asignarle un color de fondo al elemento que tenga esta clase
+	//ejemplo: .yellow
+	.#{$color}{
+		background-color: $value;
+	}
+
+	//genera una clase compuesta por el nombre del color y la palabra -text, y lo que hace es cambiar el color del texto
+	//ejemplo: .yello-text
+	.#{$color}-text{
+		color: $value;
+	}
+}

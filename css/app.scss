@@ -1,0 +1,20 @@
+@import "colors.scss";
+@import "common.scss";
+
+//en este documento se crean instrucciones especificas de este proyecto
+
+html,body{
+	margin: 0;
+	padding: 0;
+	@extend .full-height;
+}
+
+
+.primary-stage{
+	@extend .full-height;
+	@extend .yellow;
+	h1{
+		@extend .no-margin;
+		@extend .blue-text;
+	}
+}
